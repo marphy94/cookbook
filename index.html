@@ -1,0 +1,74 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta lang="de">
+<meta charset="UTF-8">
+<title>Maria´s Kochbbuch</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link  rel="stylesheet" type="text/css" href="style/main.css">
+<link  rel="stylesheet" type="text/css" href="style/responsiv.css">
+<link href="https://fonts.googleapis.com/css?family=Spartan:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="menu" id="myTopnav">
+	<div class="logo">Maria´s <strong>Kochbuch</strong></div>
+	<nav>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+  			</a>
+		<ul>
+			<li>
+				<a class="activ" href="hauptgerichte.html">Hauptgerichte</a>
+			</li>
+			<li>
+				<a href="salate.html">Salate</a>
+			</li>
+			<li>
+				<a href="nachtisch.html">Nachtisch</a>
+			</li>
+			<li>
+				<a href="backen.html">Backen</a>
+			</li>
+		</ul>
+	</nav>
+</div>
+	<div class="flex-box">
+		<div class="platzhalter">		
+		</div>
+		<div class="container--1">
+			<h2 class="important--txt">Rezepte aus meinem Alltag</h2>
+		</div>
+	</div>
+	<div class="container--0">
+		<h3>Was suchst Du?</h3>
+		<a href="#" class="button--prime">Salate</a></button> <a href="hauptgerichte.html" class="button--prime">Hauptgerichte</a> <a href="#" class="button--prime">Nachtisch</a> <a href="#" class="button--prime">Kuchen & Kekse</a>
+	</div>
+	<footer>
+		<div class="container--2">
+			<h2>Schreibe mir eine Nachricht.</h2>
+			<p>Du hast ebenfalls ein leckeres Rezept? Toll, dann schicke mir eine E-Mail. Oder du hast eine Frage? Perfekt, dann schicke mir ebenfalls einfach eine E-Mail.</p>
+			<a class="button--prime" href="javascript:void(0);" onclick="overlayOpen()">Rezept schicken</a>
+			<div id="overlay">
+				<a class="button--prime close" href="javascript:void(0);" onclick="overlayClose()">X schließen</a>
+				<form>
+					<p class="form-full"><input type="text" name="name" placeholder="Vor- und Nachname"></p>
+					<p class="form-full"><input type="email" name="e-mail" placeholder="E-Mail Adresse"></p>
+					<textarea id="textarea" placeholder="Was ist dein Anliegen?" wrap="off"></textarea>
+					<p>Lesen Sie bitte vor dem Versand Ihrer Benachrichtigung die datenschutzrechtlichen Belehrungen und Hinweise und klicken Sie zur Bestätigung Ihrer Kenntnissnahme auf das nebenstehende Kästchen. Erst nach Lesen und <a href="#">Bestätigung der datenschutzrechtlichen Belehrung</a> ist der Versand der E-Mail möglich.</p>
+					<p><input type="checkbox" name="datenschutz-1" ><lable>Ich akzeptiere die Datenschutzbestimmungen.*</lable></p>
+					<p><input type="checkbox" name="datenschutz-2"><lable>Ich willige ein, dass meine Angaben zur Kontaktaufnahme und Zuordnung für eventuelle Rückfragen gespeichert werden.*</lable></p>
+					<p><input type="submit" name="button" value="Absenden" class="button--prime"></p>
+				</form>
+			</div>
+		</div>
+		<div class="footer--bottom">
+			<span>© Maria Braesel-Strohmeier</span> ||
+			<a href="impressum.html">Impressum</a> ||
+			<a href="datenschutz.html">Datenschutz</a>
+		</div>
+	</footer>
+	<script language="javascript" type="text/javascript" src="script/responsive.js"></script> 
+	<script language="javascript" type="text/javascript" src="script/formular.js"></script> 
+</body>
+</html>

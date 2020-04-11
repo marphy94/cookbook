@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/**Color+ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Spartan;
+  font-size: 0.9em;
+  line-height: 1.5em; }
+
+/**Font* */
+a {
+  color: #F29492;
+  text-decoration: none; }
+
+a:hover {
+  color: #B16D6B; }
+
+.logo {
+  float: left;
+  padding-left: 1em; }
+
+.logo a {
+  color: #000; }
+
+.logo a:hover {
+  color: #000; }
+
+.important--txt {
+  text-decoration: underline;
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+  height: 550px; }
+
+/**Navigation* */
+nav {
+  display: flex;
+  float: right;
+  padding-right: 1em; }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  float: right;
+  margin: 0 2em 0 0; }
+
+nav li {
+  padding: 0 2em 0 0; }
+
+.menu {
+  display: block;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  overflow: hidden;
+  padding: 1.5em 0;
+  background-color: #fff;
+  border-bottom: 1px solid #eee; }
+
+/**Grid* */
+hr {
+  border: 0.1em solid #f8f8f8;
+  margin: 3em 0; }
+
+.flex-box {
+  display: flex;
+  padding: 0 0 10em 0; }
+
+.container--0 {
+  text-align: center;
+  padding: 0 0 10em 0; }
+
+.container--1 {
+  margin: 0 auto;
+  padding: 1em; }
+
+.container--2 {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2em 0 4em 0; }
+
+/*Wegen fixed Menü */
+.first--container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 51.75rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-top: 5em;
+  padding-bottom: 4em; }
+
+footer {
+  background-color: #114357;
+  color: #fff;
+  padding: 2em 0 0 0; }
+
+.footer--bottom {
+  padding: 1.5em;
+  border-top: 1px solid #eee; }
+
+/**Formular* */
+form {
+  font-size: 0.9em; }
+
+input {
+  font-size: 0.9em;
+  outline: none;
+  border-radius: 0.2em;
+  border: 1px solid #fff; }
+
+input:hover {
+  box-shadow: 0 0 7px 1px #B16D6B;
+  transition: 0.5s; }
+
+.form-full input {
+  width: 100%;
+  height: 3em; }
+
+#textarea {
+  width: 100%;
+  height: 10em;
+  resize: none;
+  overflow: auto;
+  padding: 0.8em 0.2em;
+  outline: none;
+  border-radius: 0.2em;
+  border: 1px solid #fff; }
+
+#textarea:hover {
+  box-shadow: 0 0 7px 1px #B16D6B;
+  transition: 0.5s; }
+
+::placeholder {
+  font-family: Spartan;
+  color: #B16D6B; }
+
+.accordion {
+  background-color: #F29492;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border-radius: 0.3em; }
+
+.active, .accordion:hover {
+  background-color: #B16D6B; }
+
+.panel {
+  padding: 1.2em 0.5em;
+  display: none;
+  background-color: transparent;
+  overflow: hidden; }
+
+#overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10%;
+  display: none; }
+
+/**Button* */
+.button--prime {
+  border: 0.1em solid #F29492;
+  padding: 0.5em 1em;
+  transition: 0.5s;
+  color: #F29492;
+  background-color: transparent;
+  font-size: 0.9em; }
+
+.button--prime:hover {
+  background-color: #F29492;
+  transition: 0.5s;
+  color: #B16D6B; }
+
+.close {
+  float: right;
+  margin: 1em 0; }
+
+/**Platzhalter* */
+.platzhalter {
+  width: 50%;
+  height: 550px;
+  background-color: #F29492; }
+
+/*# sourceMappingURL=main.css.map */

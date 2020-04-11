@@ -1,0 +1,59 @@
+/***Menu***/
+
+
+.menu a.active {
+  background-color: #B16D6B;
+  color: #fff; 
+}
+
+.menu .icon {
+  display: none; 
+}
+
+.fa{
+	font-size: 1.5em;
+}
+
+
+@media screen and (max-width: 600px) {
+  .menu ul:not(:first-child) {
+  	display: none;
+  }
+  .menu a.icon {
+    float: right;
+    display: block;
+    position: relative;
+	margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu .responsive {
+  	position: relative;
+  }
+  .menu .responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+.responsive ul {
+    display: block !important;
+    text-align: right;
+    margin: 3em 0 0;
+  }
+  .responsive nav{
+  	display: inline;
+  }
+  .responsive li{
+  	margin: 0;
+  	padding:0;
+  }
+}
+
+/***Menu ENDE***/
+
+@media screen and (max-width: 600px) {
+	.container--2{
+		width: 90%;
+	}
+}
